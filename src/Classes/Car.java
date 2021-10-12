@@ -4,11 +4,11 @@ package Classes;
 public class Car {
 
     // creating private fields --restricted access
-    private int doors;
-    private int wheels;
+    // private int doors;
+    // private int wheels;
     private String model;
-    private String engine;
-    private String color;
+    // private String engine;
+    // private String color;
     //
 
     public void setModel(String model) {
