@@ -3,10 +3,13 @@ package Classes;
 public class Main {
     //CLASSES --templates for creating Java objects ^^
     public static void main(String[] args){
-        //creating local variable, calling on object
+        //creating local variable, calling on object by initializing it
         Car nissan = new Car();
-        Car toyota = new Car();
 
-        // nissan.model = "Altima";
+        System.out.println(nissan.getModel());
+        nissan.setModel("Toyota");
+        System.out.println(nissan.getModel()); 
+        nissan.setModel("Altima");
+        System.out.println(nissan.getModel());
     }
 }
