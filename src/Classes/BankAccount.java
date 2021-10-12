@@ -1,6 +1,6 @@
 package Classes;
 
-public class Bank {
+public class BankAccount {
     private int account;
     private double balance;
     private String name;
@@ -12,6 +12,7 @@ public class Bank {
     public void setAccount(int account){
         this.account = account;
     }
+
     public void setBalance(double balance){
         this.balance = balance;
     }
@@ -57,6 +58,25 @@ public class Bank {
         if (this.balance >= amount) {
             this.balance -= amount;
             System.out.println(amount + " has been withdrawn, new balance is " + this.balance);
+        } else {
+            System.out.println("Withdrawal cannot be processed, current balance is " + this.balance);
         }
     }
+
+    public BankAccount() {
+        this.account = 0000;
+        this.balance = 0.00;
+        this.name = null;
+        this.email = null; 
+        this.phone = 0000;
+    }
+
+    public BankAccount(int account, double balance, String name, String email, int phone) {
+        this.account = account;
+        this.balance = balance;
+        this.name = name;
+        this.email = email;
+        this.phone = phone;
+    }
+
 }
