@@ -1,4 +1,7 @@
 package Classes;
+import java.util.Scanner;
+
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter; 
 
 public class Main {
     //CLASSES --templates for creating Java objects ^^
