@@ -13,12 +13,12 @@ public class Main {
         // System.out.println(nissan.getModel());
         
         // BankAccount kenyon = new BankAccount();
-        // BankAccount kenyon = new BankAccount(1234, 1000, "Kenyon Luce", "kenyon@email.com", 2102102100);
+        BankAccount kenyon = new BankAccount(1234, 1000, "Kenyon Luce", "kenyon@email.com", 2102102100);
 
-        // System.out.println(kenyon.getAccount());
-        // System.out.println(kenyon.getBalance());
-        // System.out.println(kenyon.getName());
-        // System.out.println(kenyon.getEmail());
-        // System.out.println(kenyon.getPhone());
+        System.out.println(kenyon.getAccount());
+        System.out.println(kenyon.getBalance());
+        System.out.println(kenyon.getName());
+        System.out.println(kenyon.getEmail());
+        System.out.println(kenyon.getPhone());
     }
 }
